@@ -1,4 +1,4 @@
--- Save the original function
+--This is an antivirus installer. It will overwrite startup.lua. To uninstall, run AV/uninstall.lua with the code in uninstallKey.txt as an argument
 local oldOpen = fs.open
 
 local dummy = oldOpen("AV/dummyFile.txt","w")
